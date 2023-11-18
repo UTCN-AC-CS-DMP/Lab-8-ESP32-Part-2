@@ -50,7 +50,7 @@ void loop() {
     delay(2000);
     return;
   }
-  
+
   client.println("Hello server");  // Send message to server
 
   // wait for response
