@@ -8,6 +8,11 @@
  * originally adapted from https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiClient
  */
 
+/*
+ * UTCN LAB 8 - WiFi + HTTP Client with ESP32
+ * originally adapted from https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiClient
+ */
+
 #include <WiFi.h>
 
 /*
