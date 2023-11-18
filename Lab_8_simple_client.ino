@@ -3,21 +3,26 @@
  * originally adapted from https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiClient
  */
 
+/*
+ * UTCN LAB 8 - WiFi + HTTP Client with ESP32
+ * originally adapted from https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiClient
+ */
+
 #include <WiFi.h>
 
 /*
  * WiFi related globals
  */
-const char *SSID = "<change_this_to_whatever_the_AP_SSID_is>";
-const char *PASS = "<chang_this_to_your_password>";
+const char *SSID = "Network 1";
+const char *PASS = "abcd1234";
 
 /*
  * Add'l globals
  */
 String serverBaseURL = "";
 
-
 void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
 
   // ESP32 boards have a delay with UART for some reason from a reset after
