@@ -8,8 +8,8 @@
 /*
  * WiFi related globals
  */
-const char *SSID = "Network 1";
-const char *PASS = "abcd1234";
+const char *SSID = "<your_unique_SSD_here>";
+const char *PASS = "<password_for_the_network>";
 
 /*
  * Add'l globals
