@@ -1,5 +1,5 @@
 /*
- * UTCN LAB 8 - ESP32 TCP server
+ * UTCN LAB 8 - ESP32 TCP client
  * originally adapted from https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi/examples/WiFiClient
  */
 
